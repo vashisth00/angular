@@ -2,6 +2,13 @@ body {
   overflow-x: hidden;
 }
 
+.back-button {
+    width: 44px;
+border: 1px solid #A8ABBB;
+padding: 1px 15px 1px 15px;
+border-radius: 12px;
+}
+
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;

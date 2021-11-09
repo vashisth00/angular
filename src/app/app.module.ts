@@ -7,13 +7,15 @@ import { HeaderComponent } from './components/header/header.component';
 import { TopbarComponent } from './components/header/topbar/topbar.component';
 import { SidebarComponent } from './components/header/sidebar/sidebar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SongslistComponent } from './components/songslist/songslist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     TopbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    SongslistComponent
   ],
   imports: [
     BrowserModule,
