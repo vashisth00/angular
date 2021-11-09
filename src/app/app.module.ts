@@ -9,6 +9,8 @@ import { SidebarComponent } from './components/header/sidebar/sidebar.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SongslistComponent } from './components/songslist/songslist.component';
 import { NewreleaseComponent } from './components/songslist/newrelease/newrelease.component';
+import { SongCardComponent } from './components/song-card/song-card.component';
+import { SectionComponent } from './components/songslist/newrelease/section/section.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { NewreleaseComponent } from './components/songslist/newrelease/newreleas
     TopbarComponent,
     SidebarComponent,
     SongslistComponent,
-    NewreleaseComponent
+    NewreleaseComponent,
+    SongCardComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule,
