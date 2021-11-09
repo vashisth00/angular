@@ -8,6 +8,7 @@ import { TopbarComponent } from './components/header/topbar/topbar.component';
 import { SidebarComponent } from './components/header/sidebar/sidebar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SongslistComponent } from './components/songslist/songslist.component';
+import { NewreleaseComponent } from './components/songslist/newrelease/newrelease.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SongslistComponent } from './components/songslist/songslist.component';
     HeaderComponent,
     TopbarComponent,
     SidebarComponent,
-    SongslistComponent
+    SongslistComponent,
+    NewreleaseComponent
   ],
   imports: [
     BrowserModule,
