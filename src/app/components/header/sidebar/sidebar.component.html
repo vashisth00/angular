@@ -1,53 +1,46 @@
 <div class="d-flex" id="wrapper">
   <!-- Sidebar -->
-  <div class="border-right px-4" id="sidebar-wrapper">
+  <div class="border-right px-lg-4" id="sidebar-wrapper">
     <div class="sidebar-heading">
       <img
         src="https://ik.imagekit.io/hk/logo__4__mHaVxaJ0AOB.png?updatedAt=1636485125760"
       />
     </div>
-    <div class="back-button">
+    <div class="back-button btn">
       <img
         src="https://ik.imagekit.io/hk/Vector_cDuW0nmoAn2.png?updatedAt=1636485840768"
       />
     </div>
     <div class="py-2">
-      <img  
-        [ngStyle]="{'padding-right': '6px'}"
+      <img
+        [ngStyle]="{ 'padding-right': '6px' }"
         height="15px"
         src="https://ik.imagekit.io/hk/Vector__1__zObfzTPqo2cQ.png?updatedAt=1636485841271"
-      /> <span class="top-header-bar">Discover</span>
+      />
+      <span class="top-header-bar">Discover</span>
       <img
         src="https://ik.imagekit.io/hk/Vector__2__RgBicAWC6d8.png?updatedAt=1636486532037"
       />
     </div>
     <div class="list-group list-group-flush">
-      <a href="#" class="list-group-item list-group-item-action "
-        >Dashboard</a
-      >
-      <a href="#" class="list-group-item list-group-item-action "
-        >Shortcuts</a
-      >
-      <a href="#" class="list-group-item list-group-item-action "
-        >Overview</a
-      >
-      <a href="#" class="list-group-item list-group-item-action "
-        >Events</a
-      >
-      <a href="#" class="list-group-item list-group-item-action "
-        >Profile</a
-      >
-      <a href="#" class="list-group-item list-group-item-action "
-        >Status</a
-      >
+      <a href="#" class="list-group-item list-group-item-action">Dashboard</a>
+      <a href="#" class="list-group-item list-group-item-action">Shortcuts</a>
+      <a href="#" class="list-group-item list-group-item-action">Overview</a>
+      <a href="#" class="list-group-item list-group-item-action">Events</a>
+      <a href="#" class="list-group-item list-group-item-action">Profile</a>
+      <a href="#" class="list-group-item list-group-item-action">Status</a>
     </div>
   </div>
   <!-- /#sidebar-wrapper -->
 
   <!-- Page Content -->
   <div id="page-content-wrapper">
-    <nav class="navbar navbar-expand-lg navbar-light  border-bottom">
-      <button class="btn" id="menu-toggle">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="btn back-to-text" id="menu-toggle">
+        <img
+          [ngStyle]="{ 'padding-right': '6px' }"
+          src="https://ik.imagekit.io/hk/Vector_cDuW0nmoAn2.png?updatedAt=1636485840768"
+        />
         Back to Home Page
       </button>
 
@@ -66,14 +59,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="#">
+              <img
+                src="https://ik.imagekit.io/hk/Vector__3__9ldxXDL4Ys.png?updatedAt=1636533247821"
+              />
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">
+              <img
+                src="https://ik.imagekit.io/hk/Vector__4__3pr4KykA4pC.png?updatedAt=1636533248373"
+            /></a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img
+                src="https://ik.imagekit.io/hk/Group_38_NtsSsaLcBy.png?updatedAt=1636533249171"
+            /></a>
+          </li>
+          <li class="nav-item dropdown border-left">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -83,7 +87,11 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Dropdown
+              <img
+                height="50%"
+                 [ngStyle]="{ 'border-radius': '26px', 'height' : '30px' }"
+                src="https://ik.imagekit.io/hk/david-hinkle-kZbLcsYHJE0-unsplash_1_uphJ1GxRq.png"
+              />
             </a>
             <div
               class="dropdown-menu dropdown-menu-right"

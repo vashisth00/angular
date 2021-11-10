@@ -12,15 +12,15 @@
   padding: 0;
 }
 
-.page-heading{
+.page-heading {
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 45px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
 
-color: #222222;
+  color: #222222;
 }
 
 body {
@@ -28,21 +28,92 @@ body {
 }
 
 a {
- color: #989AA3;
+  color: #989AA3;
 }
 
 .padding-desktop {
-    padding-left: 47px;
+  padding-left: 10px;
 }
 
-.ps{
-padding-left: 72px;
-padding-bottom: 26px;
+.ps {
+  padding-left: 38px;
+  padding-bottom: 26px;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-border-color: transparent !important;
-border-bottom: 2px var(--main-songdew-blue) solid !important;
+.card-album {
+  width: 208px;
+}
+
+.new-wrap {
+  flex-wrap: wrap;
+}
+
+.img-round {
+  border-radius: 10px;
+}
+
+.card-playlist {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-playlist {
+    margin: auto;
+  }
+
+  .card-album {
+    width: 50%;
+  }
+
+  .new-wrap {
+    padding-left: 12px;
+  }
+}
+
+.artist-name {
+  width: 78%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(34, 34, 34, 0.8);
+  margin: auto;
+}
+
+.playlist-name {
+  width: 78%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(34, 34, 34, 0.8);
+}
+
+.album-text {
+  padding-top: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+
+  color: #989AA3;
+}
+
+
+.ps-4 {
+  padding-left: 14px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-color: transparent !important;
+  border-bottom: 2px var(--main-songdew-blue) solid !important;
 }
 
 .container {
@@ -55,22 +126,22 @@ border-bottom: 2px var(--main-songdew-blue) solid !important;
   border-radius: 5px;
 }
 
-.all-title{
- font-size: 24px;
- line-height: 9px;
+.all-title {
+  font-size: 24px;
+  line-height: 9px;
 }
 
-.sub-text{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 31px;
-color: #989AA3;
+.sub-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 31px;
+  color: #989AA3;
 }
 
-.clearfix{
-    height: 20px;
+.clearfix {
+  height: 20px;
 }
 
 
@@ -78,7 +149,7 @@ color: #989AA3;
 
 
 @media only screen and (max-width: 600px) {
- .padding-desktop {
+  .padding-desktop {
     padding-left: 0px;
-}
+  }
 }

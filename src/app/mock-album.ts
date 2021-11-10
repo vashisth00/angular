@@ -42,65 +42,24 @@ export const NewRelease: Hero[] = [
 export const Playlists: Hero[] = [
   {
     image:
-      'https://ik.imagekit.io/hk/image_2_zne6EsUHzUy.png?updatedAt=1636489817123',
+      'https://ik.imagekit.io/hk/image__1__aB77UKq-U9C.png?updatedAt=1636545050463',
+    title: 'Here',
+    artist: 'World Pop Hits',
+    type: 'playlist'
+  },
+  {
+    image:
+      'https://ik.imagekit.io/hk/Group_1730_gJkTs4cIZ.png?updatedAt=1636545049854',
     title: 'Here',
     artist: 'Here',
     type: 'album'
   },
   {
     image:
-      'https://ik.imagekit.io/hk/image_2__4__4XjGHkvUDfA.png?updatedAt=1636492625515',
+      'https://ik.imagekit.io/hk/Group_1730_gJkTs4cIZ.png?updatedAt=1636545049854',
     title: 'Here',
     artist: 'Here',
     type: 'album'
   },
-  {
-    image:
-      'https://ik.imagekit.io/hk/image_2__4__4XjGHkvUDfA.png?updatedAt=1636492625515',
-    title: 'Here',
-    artist: 'Here',
-    type: 'album'
-  },
-  {
-    image:
-      'https://ik.imagekit.io/hk/image_2__4__4XjGHkvUDfA.png?updatedAt=1636492625515',
-    title: 'Here',
-    artist: 'Here',
-    type: 'album'
-  },
-  {
-    image:
-      'https://ik.imagekit.io/hk/image_2__4__4XjGHkvUDfA.png?updatedAt=1636492625515',
-    title: 'Here',
-    artist: 'Here',
-    type: 'album'
-  },
-  {
-    image:
-      'https://ik.imagekit.io/hk/image_2__3__fGWyirJvK-A.png?updatedAt=1636492624714',
-    title: 'Here',
-    artist: 'Here',
-    type: 'album'
-  },
-  {
-    image:
-      'https://ik.imagekit.io/hk/image_2__2__OA2wrn6ivyl.png?updatedAt=1636492623886',
-    title: 'Here',
-    artist: 'Here',
-    type: 'album'
-  },
-  {
-    image:
-      'https://ik.imagekit.io/hk/image_2__1__cHp0ICkqCJu.png?updatedAt=1636492623119',
-    title: 'Here',
-    artist: 'Here',
-    type: 'album'
-  },
-  {
-    image:
-      'https://ik.imagekit.io/hk/image_2__1__cHp0ICkqCJu.png?updatedAt=1636492623119',
-    title: 'Here',
-    artist: 'Here',
-    type: 'album'
-  },
+ 
 ];

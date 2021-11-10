@@ -11,6 +11,9 @@ import { SongslistComponent } from './components/songslist/songslist.component';
 import { NewreleaseComponent } from './components/songslist/newrelease/newrelease.component';
 import { SongCardComponent } from './components/song-card/song-card.component';
 import { SectionComponent } from './components/songslist/newrelease/section/section.component';
+import { PillsComponent } from './components/header/sidebar/pills/pills.component';
+import { PlaylistsComponent } from './components/songslist/playlists/playlists.component';
+import { Section2Component } from './components/songslist/playlists/section2/section2.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { SectionComponent } from './components/songslist/newrelease/section/sect
     SongslistComponent,
     NewreleaseComponent,
     SongCardComponent,
-    SectionComponent
+    SectionComponent,
+    PillsComponent,
+    PlaylistsComponent,
+    Section2Component
   ],
   imports: [
     BrowserModule,
