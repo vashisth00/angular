@@ -1,5 +1,8 @@
 <div class="d-flex bd-highlight mb-3 new-wrap">
-  <div *ngFor="let hero of heroes" class="p-2 bd-highlight card-album">
-    {{ hero.title }} <img src="{{ hero.image }}" />
+  <div *ngFor="let hero of heroes" class="p-2 bd-highlight card-album text-center">
+    <img class="img-round" src="{{ hero.image }}" />
+    <div class="album-text">{{ hero.type }}</div>
+    <div class="song-title">{{ hero.title }}</div>
+    <div class="artist-name">{{ hero.artist }}</div>
   </div>
 </div>
