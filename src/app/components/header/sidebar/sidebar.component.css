@@ -2,11 +2,18 @@ body {
   overflow-x: hidden;
 }
 
+.top-header-bar {
+  padding-right: 57px;
+  padding-left: 3px;
+}
+
 .back-button {
-    width: 44px;
-border: 1px solid #A8ABBB;
-padding: 1px 15px 1px 15px;
-border-radius: 12px;
+  margin-left: 19px;
+  margin-bottom: 13px;
+  width: 44px;
+  border: 1px solid #A8ABBB;
+  padding: 1px 15px 1px 15px;
+  border-radius: 12px;
 }
 
 #sidebar-wrapper {
@@ -48,4 +55,16 @@ border-radius: 12px;
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+.list-group-item {
+  color: #989AA3;
+  border: transparent !important;
+}
+
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  color: black !important;
+  border: transparent !important;
 }
