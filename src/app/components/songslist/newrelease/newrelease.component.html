@@ -1,8 +1,5 @@
-<div class="container-fluid">
-  <h1 class="mt-4">New Release</h1>
-<app-song-card></app-song-card>
- <div class="row row-cols-4">
-  <div *ngFor="let hero of heroes" class="col">{{hero.id}}</div>
+<div class="d-flex bd-highlight mb-3 new-wrap">
+  <div *ngFor="let hero of heroes" class="p-2 bd-highlight card-album">
+    {{ hero.title }} <img src="{{ hero.image }}" />
+  </div>
 </div>
-</div>
-

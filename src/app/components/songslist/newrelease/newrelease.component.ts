@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HEROES } from '../../../mock-album';
+import { NewRelease } from '../../../mock-album';
 
 @Component({
   selector: 'app-newrelease',
@@ -8,33 +8,9 @@ import { HEROES } from '../../../mock-album';
 })
 export class NewreleaseComponent implements OnInit {
   constructor() {}
-  heroes = HEROES;
+  heroes = NewRelease;
   ngOnInit(): void {
-    const songsList = [
-      {
-        image:
-          'https://ik.imagekit.io/hk/image_2_zne6EsUHzUy.png?updatedAt=1636489817123',
-        title: 'Here',
-      },
-      {
-        image:
-          'https://ik.imagekit.io/hk/image_2_zne6EsUHzUy.png?updatedAt=1636489817123',
-        title: 'dd',
-      },
-       {
-        image:
-          'https://ik.imagekit.io/hk/image_2_zne6EsUHzUy.png?updatedAt=1636489817123',
-        title: 'dd',
-      },
-    ];
-    const sweeterArray = songsList.map((sweetItem) => {
-      const ab = sweetItem.title;
-      return ab;
-    });
-
-    console.log(sweeterArray);
  
   }
-
 
 }
