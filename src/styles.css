@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+
+:root {
+  --main-songdew-blue: #3D67FF;
+}
 
 * {
   box-sizing: border-box;
@@ -8,8 +12,37 @@
   padding: 0;
 }
 
+.page-heading{
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+
+color: #222222;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+}
+
+a {
+ color: #989AA3;
+}
+
+.padding-desktop {
+    padding-left: 47px;
+}
+
+.ps{
+padding-left: 72px;
+padding-bottom: 26px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+border-color: transparent !important;
+border-bottom: 2px var(--main-songdew-blue) solid !important;
 }
 
 .container {
@@ -38,4 +71,14 @@ color: #989AA3;
 
 .clearfix{
     height: 20px;
+}
+
+
+/* Mobile CSS */
+
+
+@media only screen and (max-width: 600px) {
+ .padding-desktop {
+    padding-left: 0px;
+}
 }

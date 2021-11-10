@@ -10,6 +10,16 @@
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  .card-album {
+    width: 50%;
+  }
+
+  .new-wrap {
+    padding-left: 12px;
+  }
+}
+
 .artist-name {
   width: 78%;
   font-family: Poppins;
