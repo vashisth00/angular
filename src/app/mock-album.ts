@@ -35,21 +35,7 @@ export const NewRelease: Hero[] = [
     title: 'Here',
     artist: 'Here',
     type: 'album'
-  },
-  {
-    image:
-      'https://ik.imagekit.io/hk/image_2__2__OA2wrn6ivyl.png?updatedAt=1636492623886',
-    title: 'Here',
-    artist: 'Here',
-    type: 'album'
-  },
-  {
-    image:
-      'https://ik.imagekit.io/hk/image_2__2__OA2wrn6ivyl.png?updatedAt=1636492623886',
-    title: 'Here',
-    artist: 'Here',
-    type: 'album'
-  },
+  }
 ];
 
 

@@ -21,3 +21,21 @@ body {
   padding: 30px;
   border-radius: 5px;
 }
+
+.all-title{
+ font-size: 24px;
+ line-height: 9px;
+}
+
+.sub-text{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 31px;
+color: #989AA3;
+}
+
+.clearfix{
+    height: 20px;
+}

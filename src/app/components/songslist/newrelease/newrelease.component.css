@@ -1,39 +1,39 @@
-.card-album{
-    width: 208px;
+.card-album {
+  width: 208px;
 }
 
-.new-wrap{
-flex-wrap: wrap;
+.new-wrap {
+  flex-wrap: wrap;
 }
 
-.img-round{
-border-radius: 10px;
+.img-round {
+  border-radius: 10px;
 }
 
-.artist-name{
-    width: 78%;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 20px;
-    color: rgba(34, 34, 34, 0.8);
-    text-align: center;
-    margin: auto;
+.artist-name {
+  width: 78%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(34, 34, 34, 0.8);
+  text-align: center;
+  margin: auto;
 }
 
-.album-text{
-padding-top: 10px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 15px;
-/* identical to box height */
+.album-text {
+  padding-top: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.3px;
-text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
 
-color: #989AA3;
+  color: #989AA3;
 }
